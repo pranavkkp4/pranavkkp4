@@ -1,4 +1,4 @@
-# Hi, I’m Pranav Kumar Kaliaperumal
+#Pranav Kumar Kaliaperumal
 
 M.S. Computer Science candidate focused on AI systems, cloud engineering, and production infrastructure.  
 Based in Aurora, CO.
