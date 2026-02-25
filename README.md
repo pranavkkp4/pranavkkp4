@@ -1,13 +1,15 @@
 # Pranav Kumar Kaliaperumal
 
-M.S. Computer Science candidate specializing in **AI systems, cloud engineering, and production infrastructure**.  
+> AI Systems · Cloud Engineering · Production Infrastructure
+
+M.S. Computer Science candidate specializing in production-grade AI systems, scalable backend services, and performance-focused infrastructure.  
 Based in Aurora, CO.
 
 ---
 
 ## Engineering Focus
 
-I build **production-grade AI and data systems** with an emphasis on reliability, governance, and performance.
+I design and implement **reliable, governance-aware AI and data systems** built for real-world deployment.
 
 Core areas:
 
@@ -41,11 +43,23 @@ Transformer implementation exploring sparse attention, LoRA fine-tuning, and opt
 
 ## Technical Stack
 
-**Languages:** Python, Java, SQL, C++  
-**AI/ML:** Generative AI, LLM agents, LoRA, sparse attention, evaluation frameworks  
-**Systems:** REST APIs, schema validation, monitoring & logging, policy engines  
-**Data:** SQL optimization, ETL pipelines, anomaly detection  
-**Infrastructure:** CI/CD, containerization, modular architecture design  
+### Languages
+![Python](https://img.shields.io/badge/Python-3A75B0?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-2F855A?style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### AI & ML
+![LLM Agents](https://img.shields.io/badge/LLM%20Agents-6B46C1?style=for-the-badge)
+![LoRA](https://img.shields.io/badge/LoRA-DC2626?style=for-the-badge)
+![Sparse Attention](https://img.shields.io/badge/Sparse%20Attention-F59E0B?style=for-the-badge)
+![Model Evaluation](https://img.shields.io/badge/Model%20Evaluation-059669?style=for-the-badge)
+
+### Systems & Infrastructure
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-2563EB?style=for-the-badge)
+![Monitoring](https://img.shields.io/badge/Monitoring%20%26%20Logging-475569?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI/CD-F97316?style=for-the-badge)
 
 ---
 
@@ -60,5 +74,6 @@ Interested in roles at the intersection of:
 
 ---
 
-📫 pranavkkp4@gmail.com  
-🔗 https://www.linkedin.com/in/pranav-kumar-kaliaperumal
+📫 **Email:** pranavkkp4@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/pranav-kumar-kaliaperumal  
+🔗 **GitHub:** https://github.com/pranavkkp4
