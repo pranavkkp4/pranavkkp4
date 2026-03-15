@@ -1,107 +1,93 @@
 # Pranav Kumar Kaliaperumal
 
-> Machine Learning Systems · Model Optimization · Scalable AI Infrastructure
+**Machine Learning Systems · Model Optimization · Scalable AI Infrastructure**
 
-M.S. Computer Science candidate focused on machine learning systems, transformer optimization, and production AI infrastructure. My work combines ML research, backend engineering, and performance-oriented system design to build reliable and deployable AI systems.
+I am currently pursuing an M.S. in Computer Science, focusing on machine learning systems, transformer optimization, and robust AI infrastructure for real-world applications. My work brings together machine learning research, backend engineering, and performance-driven system design, all with the goal of creating AI systems that are both reliable and ready for deployment.
 
 Based in Aurora, CO.
 
 ---
 
-# Research Highlight
+## Research Highlight
 
-## Activation Outliers in Transformer Quantization
+### Activation Outliers in Transformer Quantization
 
-📄 Paper: https://arxiv.org/abs/2603.04308
+[![arXiv](https://img.shields.io/badge/arXiv-2603.04308-b31b1b.svg)](https://arxiv.org/abs/2603.04308)
 
-![Transformer Quantization Visualization](assets/transformer_quantization_overview.png)
+**Paper:** https://arxiv.org/abs/2603.04308
 
-My research investigates failure modes in **post-training quantization (PTQ)** of transformer models, focusing on structured activation outliers that cause severe accuracy degradation.
+**Transformer Quantization Visualization**
 
-Key findings:
+In my research, I examine the failure modes that arise during post-training quantization (PTQ) of transformer models. I focus in particular on how structured activation outliers can lead to significant drops in model accuracy, which is a critical challenge for deploying efficient transformer-based systems.
 
-- Global **W8A8 quantization reduces BERT accuracy from 89.66% → 54.33%**
-- Activations exhibit **extreme heavy-tailed behavior** with kurtosis up to **271**
-- ~**55% of activation energy concentrated in top 1% of channels**
-- **Mixed-precision PTQ restores accuracy to 89.42%**
-- **PEG quantization improves accuracy to 86.18%**
+In this study, I found that using global W8A8 quantization really hurts BERT’s accuracy, dropping it from 89.66% to 54.33%. The activations ended up having some wild outliers, with most of the energy packed into just a few channels. But switching to mixed-precision PTQ almost gets the accuracy back (89.42%), and PEG quantization also helps (up to 86.18%).
 
-The work highlights that transformer PTQ failures are driven by **structured channel dominance amplified through residual connections**, requiring **channel-aware precision allocation rather than simple clipping**.
+Basically, the main problem is that a few channels dominate because of how residual connections work. Fixing this needs smarter, channel-aware precision—not just simple clipping.
 
 ---
 
-# Engineering Focus
+## Engineering Focus
 
-I design and implement **machine learning systems and infrastructure built for real-world deployment**.
+I design and build machine learning systems and supporting infrastructure built for real-world deployment.
 
-Core areas:
+My main interests are things like making transformers run faster and smaller, testing and evaluating machine learning systems, building smart AI workflows, keeping backend infrastructure running smoothly, making sure pipelines are reliable, and figuring out how to boost overall performance.
 
-- Transformer optimization and model compression  
-- ML system benchmarking and evaluation  
-- Agentic AI workflows and LLM-based systems  
-- Backend infrastructure for AI services  
-- Observability, validation, and reliability for ML pipelines  
-- Performance analysis and systems optimization  
+I am also very interested in general Python development. Python was my first language, and I’ve since used it for everything from backend development to machine learning tasks, including for my transformer quantization project.
 
 ---
 
-# Flagship Systems
+## Flagship Systems
 
-### PeopleOS — AI Workflow Platform
-Enterprise-style AI orchestration system with policy gating, observability, and evaluation pipelines for agent workflows.
-
-### TransformerTheory
-Experimental transformer framework exploring **sparse attention, LoRA fine-tuning, and optimization dynamics**.
-
-### TatoOps — Optimization & Decision Support
-MILP-based airline gate assignment system with disruption simulation and decision-support dashboards.
-
-### 5G KPI Root Cause Analysis
-SQL-driven anomaly detection and root cause analysis pipeline simulating telecom-scale monitoring systems.
-
-### Supply Chain Inventory API
-FastAPI + SQL backend for forecasting, validation pipelines, and containerized deployment.
+| Project                                       | Description                                                                                                                                          |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **PeopleOS — AI Workflow Platform**           | Enterprise-level AI orchestration system with policy gating, observability features, and evaluation pipelines for managing agent workflows.          |
+| **TransformerTheory**                         | Experimental framework exploring transformer architectures including sparse attention mechanisms, LoRA-based fine-tuning, and optimization dynamics. |
+| **TatoOps — Optimization & Decision Support** | MILP-based airline gate assignment system with disruption simulation and decision-support dashboards.                                                |
+| **5G KPI Root Cause Analysis**                | SQL-driven anomaly detection and root cause analysis pipeline simulating telecom-scale monitoring infrastructure.                                    |
+| **Supply Chain Inventory API**                | FastAPI + SQL backend system supporting forecasting, validation pipelines, and containerized deployment for supply chain inventory management.       |
 
 ---
 
-# Technical Stack
+## Technical Stack
 
-## Languages
+### Languages
 
-![Python](https://img.shields.io/badge/Python-3A75B0?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-2F855A?style=for-the-badge)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+* Python
+* Java
+* SQL
+* C++
 
-## Machine Learning
+### Machine Learning
 
-![Transformers](https://img.shields.io/badge/Transformers-7C3AED?style=for-the-badge)
-![Model Compression](https://img.shields.io/badge/Model%20Compression-DC2626?style=for-the-badge)
-![LoRA](https://img.shields.io/badge/LoRA-F59E0B?style=for-the-badge)
-![Sparse Attention](https://img.shields.io/badge/Sparse%20Attention-059669?style=for-the-badge)
+* Transformers
+* Model Compression
+* LoRA
+* Sparse Attention
 
-## Systems & Infrastructure
+### Systems & Infrastructure
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-2563EB?style=for-the-badge)
-![Monitoring](https://img.shields.io/badge/Monitoring%20%26%20Logging-475569?style=for-the-badge)
-![CI/CD](https://img.shields.io/badge/CI/CD-F97316?style=for-the-badge)
-
----
-
-# Career Direction
-
-I am interested in roles involving:
-
-- Machine Learning Engineering  
-- ML Systems and Infrastructure  
-- Model Optimization and Efficient Inference  
-- Production AI platforms  
-- Scalable ML pipelines  
+* FastAPI
+* REST APIs
+* Monitoring
+* CI/CD
 
 ---
 
-📫 Email: pranavkkp4@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/pranav-kumar-kaliaperumal  
-🔗 GitHub: https://github.com/pranavkkp4  
-📄 arXiv: https://arxiv.org/abs/2603.04308
+## Career Direction
+
+I am interested in pursuing roles that involve several distinct but related areas:
+
+* Machine learning engineering
+* ML systems and infrastructure
+* Model optimization and fast inference
+* Building production AI platforms
+* Developing scalable ML pipelines
+
+---
+
+## Links
+
+Email: [pranavkkp4@gmail.com](mailto:pranavkkp4@gmail.com)
+LinkedIn: https://www.linkedin.com/in/pranav-kumar-kaliaperumal
+GitHub: https://github.com/pranavkkp4
+arXiv: https://arxiv.org/abs/2603.04308
