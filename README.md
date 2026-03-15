@@ -5,20 +5,6 @@
 I am currently pursuing an M.S. in Computer Science, focusing on machine learning systems, transformer optimization, and robust AI infrastructure for real-world applications. My work brings together machine learning research, backend engineering, and performance-driven system design, all with the goal of creating AI systems that are both reliable and ready for deployment.
 
 Based in Aurora, CO.
-
----
-
-## Featured Projects
-
-| Project                                        | Description                                                                                                                                                                                    |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **NBA Player Simulation & Analytics Platform** | In-browser NBA draft and career simulator built with HTML, CSS, JavaScript, and in-browser SQLite (sql.js). The system is rule-based, data-driven, and runs fully client-side on GitHub Pages. |
-| **Supply Chain Inventory API**                 | FastAPI-based supply chain inventory service with RESTful CRUD operations, SQLite storage, and a forecasting module that predicts days until stockout.                                         |
-| **TatoOps — Optimization & Decision Support**  | Airline-style gate assignment optimization with disruption simulation using OR-Tools MILP structure and a Streamlit dashboard for decision support.                                            |
-| **PeopleOS — AI Workflow Platform**            | Agentic AI orchestration system with policy enforcement, compliance logging, observability features, and enterprise deployment patterns.                                                       |
-| **Workout Planner App**                        | React-based workout planner featuring GSAP micro-interactions and Zapier-powered automation, deployed via GitHub Pages.                                                                        |
-| **AR Experience**                              | Interactive browser-based augmented reality system using MediaPipe Face Mesh to classify facial expressions in real time with user calibration and live confidence tracking.                   |
-
 ---
 
 ## Research Highlight
@@ -38,6 +24,16 @@ In this study, I found that using global W8A8 quantization really hurts BERT’s
 Basically, the main problem is that a few channels dominate because of how residual connections work. Fixing this needs smarter, channel-aware precision—not just simple clipping.
 
 ---
+## Featured Projects
+
+| Project                                        | Description                                                                                                                                                                                    |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **NBA Player Simulation & Analytics Platform** | In-browser NBA draft and career simulator built with HTML, CSS, JavaScript, and in-browser SQLite (sql.js). The system is rule-based, data-driven, and runs fully client-side on GitHub Pages. |
+| **Supply Chain Inventory API**                 | FastAPI-based supply chain inventory service with RESTful CRUD operations, SQLite storage, and a forecasting module that predicts days until stockout.                                         |
+| **TatoOps — Optimization & Decision Support**  | Airline-style gate assignment optimization with disruption simulation using OR-Tools MILP structure and a Streamlit dashboard for decision support.                                            |
+| **PeopleOS — AI Workflow Platform**            | Agentic AI orchestration system with policy enforcement, compliance logging, observability features, and enterprise deployment patterns.                                                       |
+| **Workout Planner App**                        | React-based workout planner featuring GSAP micro-interactions and Zapier-powered automation, deployed via GitHub Pages.                                                                        |
+| **AR Experience**                              | Interactive browser-based augmented reality system using MediaPipe Face Mesh to classify facial expressions in real time with user calibration and live confidence tracking.                   |
 
 ## Engineering Focus
 
