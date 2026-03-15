@@ -81,7 +81,8 @@ I am interested in pursuing roles that involve several distinct but related area
 * ML systems and infrastructure
 * Model optimization and fast inference
 * Building production AI platforms
-* Developing scalable ML pipelines
+* Full Stack Software Development
+*  Developing scalable ML pipelines
 
 ---
 
