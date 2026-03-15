@@ -2,7 +2,7 @@
 
 **Machine Learning Systems · Model Optimization · Scalable AI Infrastructure**
 
-I am currently pursuing an M.S. in Computer Science, focusing on machine learning systems, transformer optimization, and robust AI infrastructure for real-world applications. My work brings together machine learning research, backend engineering, and performance-driven system design, all with the goal of creating AI systems that are both reliable and ready for deployment.
+I am currently pursuing an M.S. in Computer Science and my main focus is Python development for machine learning systems, transformer optimization, and AI infrastructure with real applications. I combine machine learning research, backend engineering, and system design to create systems that are both reliable and useful.
 
 Based in Aurora, CO.
 ---
